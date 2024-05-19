@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanda Dwi Nurkholifah</title>
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+        
+  </head>
+  <body>
+    
+      <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#award">Awards</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo"></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>        
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/profile.png" class="rounded-circle" alt="avatar1" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Nanda Dwi Nurkholifah</h1>
+          <p class="section__text__p2">
+            <span class="text-slider-items">Backend Developer | UI UX Designer</span>
+            <strong class="text-slider"></strong>
+          </p>
+          <div class="button">
+            <button
+              class="button-cv"
+              onclick="location.href='https://drive.google.com/file/d/1edbAH1Xt-DAGeQJtUUBfdalZKcGH8OlL/view?usp=drive_link'"
+            >
+              Download CV
+            </button>
+          </div>
+          <div id="socials-container" class="text-social">
+            <img src="./assets/github.png" alt="My Github" class="icon" onclick="location.href='https://github.com/nandadwinurkholifah'"
+            />
+            <img src="./assets/medium.png" alt="medium" class="icon" onclick="location.href='https://medium.com/@bylipproject'"
+            />
+            <img src="./assets/youtube.png" alt="youtube profile" class="icon" onclick="location.href='https://youtube.com/@bylipproject'"
+            />
+            <img src="./assets/instagram.png" alt="instagram profile" class="icon" onclick="location.href='https://www.instagram.com/bylipproject'"
+            />
+          </div>
+        </div>
+      </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col">
+              <div class="artikel">
+                <p>I am a final semester Informatics student who has completed the thesis trial process and has completed the judiciary. Have an interest in and be able to operate a computer, and can communicate well and can work together in a team or independently. Have an interest in building websites and applications.</p>
+              </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col">
+              <h4>Work</h4><br>
+              <div class="education">
+                <div class="box">
+                  <h5>LIBMI Education Center</h5>
+                  <h6>Desember 2023 - Maret 2024 | IT Support</h6>
+                    <p>Mengembangkan situs website lembaga menggunakan Wordpress</p>
+                    <p>Menyesuaikan dan mengunggah kontent website secara berkala</p>
+                    <p>Membantu instruktur digital marketing dalam mengajar</p>
+                </div>
+                <div class="box">
+                  <h5>PT. CEMERLANG STATISTIKA INDONESIA</h5>
+                  <h6>Aug - Sep 2023 | Freelance</h6>
+                    <p>Input data into the agricultural census application</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h4>Internship</h4><br>
+              <div class="education">
+                <div class="box">
+                  <h5>PT. EKATA TECHNOLOGY INDONESIA</h5>
+                  <h6>Desember 2023 - Februari 2024 | Backend Developer</h6>
+                    <p>Maintance hosting web API agar bisa dikonsumsi oleh Frontend Developer</p>
+                    <p>Membuat Rest API menggunakan Laravel</p>
+                </div>
+                <div class="box">
+                  <h5>BADAN PUSAT STATISTIK KABUPATEN MOJOKERTO</h5>
+                  <h6>Mar - Apr 2022</h6>
+                    <p>Developing the STIMO application by adding several features and using a dummy API</p>
+                </div>
+                <div class="box">
+                  <h5>PT. QUANTUM LEAP</h5>
+                  <h6>Jan - Jun 2018</h6>
+                  <p>Assist IT supports tasks in compiling user manual books for application websites</p>
+                  <p>Assist frontliners in receiving customer complaints</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="edu">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Education</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col">
+              <div class="education">
+                <div class="box">
+                  <h5>Universitas Islam Majapahit</h5>
+                  <h6>2019 - Mar 2024</h6>
+                    <p>Informatika</p>
+                </div>
+                <div class="box">
+                  <h5>SMK Negeri 1 Dlanggu</h5>
+                  <h6>2016 - 2019</h6>
+                    <p>Rekayasa Perangkat Lunak</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skill">
+      <p class="section__text__p1">I Have a</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <img src="./assets/Figma.png" alt="Figma">
+            <img src="./assets/laravel.png" alt="laravel">
+            <img src="./assets/Java.png" alt="Java">
+            <img src="./assets/flutter.png" alt="flutter">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Interests</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <img src="./assets/book.png" alt="book">
+            <img src="./assets/travel.png" alt="travel">
+            <img src="./assets/musik.png" alt="musik">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="award">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Awards</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <img src="./assets/dicoding-1.PNG" alt="dicoding-1">
+            <img src="./assets/dicoding-2.PNG" alt="dicoding-2">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#award">Awards</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&#169; Copyright 2023 Nanda Dwi Nurkholifah</p>
+    </footer>  
+
+    <script src="js/script.js"></script> 
+  </body>
+</html>
